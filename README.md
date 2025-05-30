@@ -34,7 +34,7 @@ git clone https://github.com/Koki1111a/MultiPly.git
 cd MultiPly
 ```
 
-### 4. Download [SMPL model](https://download.is.tue.mpg.de/download.php?domain=smpl&sfile=SMPL_python_v.1.1.0.zip) and move them to the corresponding places (初回のみ):
+### 4. Download [SMPL model](https://download.is.tue.mpg.de/download.php?domain=smpl&sfile=SMPL_python_v.1.1.0.zip) and move them to the corresponding places (only once):
 ```bash
 mkdir code/lib/smpl/smpl_model/
 mv /path_to_smpl_models/basicmodel_f_lbs_10_207_0_v1.1.0.pkl code/lib/smpl/smpl_model/SMPL_FEMALE.pkl
