@@ -10,7 +10,7 @@ Official Repository for CVPR 2024 paper [*MultiPly: Reconstruction of Multiple P
 
 <br><br>
 
-## Getting Started (for Ubuntu)
+## Getting Started for Ubuntu
 
 ### 1. Install Git (only once):
 ```bash
