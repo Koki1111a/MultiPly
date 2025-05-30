@@ -8,6 +8,8 @@ Official Repository for CVPR 2024 paper [*MultiPly: Reconstruction of Multiple P
 <img src="resources/teaser.png" width="800" height="223"/> 
 </p>
 
+<br><br>
+
 ## Getting Started (for Ubuntu)
 
 ### 0.1. Git のインストール (初回のみ)
