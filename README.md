@@ -12,13 +12,13 @@ Official Repository for CVPR 2024 paper [*MultiPly: Reconstruction of Multiple P
 
 ## Getting Started (for Ubuntu)
 
-### 0.1. Git のインストール (初回のみ)
+### 1. Git のインストール (初回のみ)
 ```bash
 sudo apt update
 sudo apt install git
 ```
 
-### 0.2. Docker のインストール (初回のみ)
+### 2. Docker のインストール (初回のみ)
 ```bash
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg lsb-release
@@ -28,8 +28,22 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### 1. プログラムのクローン (初回のみ)
+### 3. プログラムのクローン (初回のみ)
 ```bash
 git clone https://github.com/Koki1111a/MultiPly.git
 cd MultiPly
 ```
+
+### 4. コンテナを作成する (初回のみ)
+```bash
+docker build -t multiply .
+docker create --name multiply multiply
+```
+
+### 5. コンテナ内で bash シェルの起動
+```bash
+docker start -ai multiply
+docker exec -it multiply bash
+```
+
+### 6. 
