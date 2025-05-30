@@ -10,15 +10,17 @@ Official Repository for CVPR 2024 paper [*MultiPly: Reconstruction of Multiple P
 
 <br><br>
 
-## Getting Started for Ubuntu
+## Getting Started
 
 ### 1. Install Git (only once):
+for Ubuntu
 ```bash
 sudo apt update
 sudo apt install git
 ```
 
 ### 2. Install Docker (only once):
+for Ubuntu
 ```bash
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg lsb-release
