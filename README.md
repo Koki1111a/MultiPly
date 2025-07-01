@@ -92,7 +92,7 @@ docker create --name multiply multiply
 
 ### 9. Start the container:
 ```bash
-docker run --gpus all -it　--shm-size=8g -v $(pwd):/MultiPly multiply
+docker run --gpus all -it　--shm-size=16g -v $(pwd):/MultiPly multiply
 ```
 
 <br><br>

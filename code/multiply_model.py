@@ -974,7 +974,7 @@ class MultiplyModel(pl.LightningModule):
     def validation_step(self, batch, *args, **kwargs):
         outputs = []
         outputs.append(self.validation_step_single_person(batch, id=-1))
-        self.validation_outputs.append(output)
+        self.validation_outputs.append(outputs)
         if self.num_person > 1:
             for i in range(self.num_person):
                 outputs.append(self.validation_step_single_person(batch, id=i))
